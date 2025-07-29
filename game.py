@@ -11,7 +11,6 @@ def get_player_guess():
     5. Add error handling for invalid input (e.g., text instead of a number).
     """
     # Student 1: Add your code here
-    pass
     while True:
 
         try:
@@ -29,7 +28,8 @@ def get_player_guess():
         except ValueError:
 
             print("Invalid input. Please enter a valid integer.")
-
+    pass
+    
 def check_guess(secret_number, player_guess):
     """
     Task for Student 2:
